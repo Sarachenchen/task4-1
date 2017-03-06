@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-width: 1213px;
+    background: #f5f4f4;
+}
+
+
+/*头部区域*/
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    position: relative;
+}
+
+.hd_logo {
+    position: absolute;
+    left: 175px;
+    top: 7px;
+}
+
+.hd_nav {
+    position: absolute;
+    height: 18px;
+    left: 310px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+a:hover {
+    color: #38b518;
+}
+
+.information {
+    height: 18px;
+    float: right;
+    margin-right: 175px;
+}
+
+.com-nav {
+    float: left;
+    margin-left: 42px;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+}
+
+.ul {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 56px;
+    width: 174px;
+    height: 199px;
+    background: #fff;
+    line-height: 25px;
+}
+
+.com-nav:hover .ul {
+    display: block;
+}
+
+.com-nav1:hover .ul {
+    display: block;
+}
+
+.com-nav1 {
+    float: left;
+    margin-right: 12px;
+    position: relative;
+    height: 60px;
+}
+
+.article {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*aside*/
+
+aside {
+    width: 35px;
+    height: 70px;
+    position: fixed;
+    top: 460px;
+    right: 134px;
+    z-index: 100;
+}
+
+.asi_1 {
+    height: 35px;
+}
+
+
+/*海报部分*/
+
+.poster {
+    overflow: hidden;
+}
+
+.banner {
+    float: left;
+    margin-top: 20px;
+    background: url(../images/banner.jpg) no-repeat;
+    width: 750px;
+    height: 329px;
+}
+
+.hello {
+    height: 329px;
+    width: 239px;
+    float: right;
+    margin-top: 20px;
+}
+
+.hl_1 {
+    background: #fff;
+    height: 158px;
+}
+
+.hl_2 {
+    margin-top: 11px;
+}
+
+.com_btn {
+    margin-top: 12px;
+}
+
+.btn {
+    float: left;
+    color: #5ca509;
+    background-color: #fff;
+    border: 1px solid #5ca509;
+}
+
+.btn_1 {
+    width: 83px;
+    height: 32px;
+    margin-left: 20px;
+}
+
+.btn_2 {
+    width: 84px;
+    height: 32px;
+    margin-left: 20px;
+}
+
+.btn:hover a {
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #5ca509;
+}
+
+
+/*就业班部分*/
+
+.classes {
+    overflow: hidden;
+}
+
+.com_class {
+    background: #fff;
+    width: 199px;
+    height: 128px;
+    text-align: center;
+    float: left;
+    margin-left: 1px;
+    margin-top: 20px;
+}
+
+
+/*基础课程*/
+
+.view {
+    overflow: hidden;
+}
+
+.com_view {
+    width: 231px;
+    height: 268px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+}
+
+.view_2,
+.view_3,
+.view_4 {
+    margin-left: 22px;
+}
+
+.com_view:hover {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+    -mo-box-shadow: 5px 5px 5px rgb(43, 42, 42, 0.6);
+    box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+}
+
+
+/*职业学院部分*/
+
+.text_1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.part-1 {
+    height: 269px;
+    width: 498px;
+    background: url(../images/college-1.jpg) no-repeat;
+    float: left;
+    margin-top: 20px;
+}
+
+.college {
+    overflow: hidden;
+}
+
+.com {
+    width: 240px;
+    height: 128px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.col_2 {
+    background: url(../images/college-3.jpg);
+    margin-top: 22px;
+}
+
+.col_3 {
+    background: url(../images/college-2.jpg);
+    margin-top: 22px;
+}
+
+.col_4 {
+    background: url(../images/college-5.jpg);
+}
+
+.col_5 {
+    background: url(../images/college-4.jpg);
+}
+
+.text_2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*会员课程部分*/
+
+.com_vip {
+    width: 156px;
+    height: 148px;
+    float: left;
+    border: 1px solid #fff;
+}
+
+.vip_2,
+.vip_3,
+.vip_4,
+.vip_5,
+.vip_6,
+.vip_8,
+.vip_9,
+.vip_10,
+.vip_11,
+.vip_12 {
+    margin-left: 10px;
+}
+
+.com_vip:hover {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+    -mo-box-shadow: 5px 5px 5px rgb(43, 42, 42, 0.6);
+    box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+}
+
+.vip_two {
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.vip_one {
+    overflow: hidden;
+}
+
+.but {
+    width: 118px;
+    height: 32px;
+    margin: 40px auto;
+    color: #5ca509;
+    background-color: #fff;
+    border: 1px solid #5ca509;
+}
+
+.button {
+    text-align: center;
+}
+
+.but:hover a {
+    color: #fff;
+}
+
+.but:hover {
+    background-color: #5ca509;
+}
+
+.link {
+    color: #5ca509;
+}
+
+
+/*学员故事*/
+
+.text_3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.com_story {
+    height: 258px;
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+}
+
+.sty_2,
+.sty_3 {
+    margin-left: 20px;
+}
+
+.sty {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.com_story:hover sty_1,
+sty_2,
+sty_3 {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+    -mo-box-shadow: 5px 5px 5px rgb(43, 42, 42, 0.6);
+    box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+}
+
+.story {
+    overflow: hidden;
+}
+
+
+/*合作企业部分*/
+
+.com_company {
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+
+.company_one {
+    overflow: hidden;
+}
+
+.company_two {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.coy_2,
+.coy_3,
+.coy_4,
+.coy_5,
+.coy_6,
+.coy_8,
+.coy_9,
+.coy_10,
+.coy_11,
+.coy_12 {
+    margin-left: 19px;
+}
+
+.text_4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.com_company:hover {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+    -mo-box-shadow: 5px 5px 5px rgb(43, 42, 42, 0.6);
+    box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.6);
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #fff;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.footer-1 {
+    overflow: hidden;
+}
+
+.footer-2 {
+    text-align: center;
+}
+
+.img-1 {
+    margin-top: 20px;
+}
+
+.text_5 {
+    line-height: 26px;
+    color: #9c9292;
+    font-size: 14px;
+}
+
+.footer_1 {
+    float: left;
+    width: 232px;
+    margin-top: 26px;
+    margin-left: 175px;
+}
+
+.footer_2 {
+    float: left;
+    width: 134px;
+    margin-top: 28px;
+}
+
+.footer_3 {
+    float: left;
+    width: 134px;
+    margin-top: 28px;
+}
+
+.footer_4 {
+    float: left;
+    width: 134px;
+    margin-top: 28px;
+}
+
+.footer_5 {
+    float: left;
+    width: 190px;
+    margin-top: 28px;
+}
+
+.footer_6 {
+    margin-top: 28px;
+    float: left;
+    color: #9c9292;
+}
+
+.fot {
+    margin-top: 12px;
+}
